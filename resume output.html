@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5500/resume.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link href="./resume output_files/css2" rel="stylesheet">
+    <link rel="stylesheet" href="./resume output_files/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous">
+    <title>Resume</title>
+    <style>
+        .main{
+            max-width: 60%;
+            margin: 10px auto 0;
+        }
+        .profile {
+            position: relative;
+            background-color: gray;
+            text-align: center;
+        }
+
+        img{
+            border-radius: 50%;
+        }
+        .name{
+            border-radius: 25px;
+            position: absolute;
+            bottom: 5px;
+            left: 42%;
+            background-color: orange;
+            color: white;
+            padding:10px
+        
+        }
+        .details{
+            text-align: center;
+        }
+        .profile_details{
+            column-count:2;
+            column-rule-style: solid;
+            column-rule-color: gray;
+        }
+        i{
+            border-radius: 50%;
+            border: dotted orange;
+        }
+        h1{
+            font-family: 'PT Serif', serif;
+        }
+        p{
+            font-family: 'Quicksand', sans-serif;
+        }
+        .bar span{
+            position:relative;
+            display: inline-block;
+            width: 100%;
+            height: 10px;
+            background:blanchedalmond;
+            border-radius: 50px;
+        }
+        .bar span:before{
+            position: absolute;
+            content: '';
+            top: 2px;
+            left:1px;
+            width: 80%;
+            height: 50%;
+            background: linear-gradient(to left,orange,red);
+            border-radius:50px;
+            
+        }
+        @keyframes bar {
+            from{
+                width:0;
+            }            
+        }
+        .bar:nth-child(1) span:before{
+            width: 60%;
+        }
+        .bar:nth-child(2) span:before{
+            width: 70%;
+        }
+        .bar:nth-child(3) span:before{
+            width: 80%;
+        }
+        .bar:nth-child(4) span:before{
+            width: 40%;
+        }
+        .bar:nth-child(5) span:before{
+            width:80%;
+        }
+    </style>
+<script>var __tcjsch = !0;</script></head>
+<body>
+    <div class="main">
+    
+        <div class="profile">
+            <img src="./resume output_files/2.jpg" alt="profile picture" style="border-style: dotted; border-color: orange;">
+            <div class="name">
+                AMELIA JOSEPH
+            </div>
+        </div>
+        <div class="details">
+            amelia.joseph@gmail.com, phone no:888884443
+            <hr>
+        </div>
+        <div class="profile_details">
+            <div>
+                <h1><i class="fas fa-user-circle "></i>Profile</h1>
+                <p>Innovative optimized solution seeker.Excited to be at the deployment phase of my new carrer as a web developer.I am abmbitious, adventurous, assiduous, animated, and an a lliteration advocate.</p>
+            </div>
+            <div>
+                <h1><i class="fas fa-briefcase"></i>Work Experience</h1>
+                <p><b>Infosys Limited</b></p>
+                <ul>
+                    <li>Arranging presentations and pitch deck</li>
+                    <li>Designing, Creating and managing content across multiple communication platforms</li>
+                </ul>
+            </div>
+            <div class="bar1">
+                <h1><i class="fas fa-fill-drip"></i>Skills</h1>
+                <h3>Technical Skills</h3>
+                <div class="bar">
+                    <p>JavaScript <span></span></p>
+                    
+                </div>
+                <div class="bar">
+                    <p>CSS <span></span></p>
+                </div>
+                <div class="bar">
+                    <p>HTML <span></span></p>
+                </div>
+                <div class="bar">
+                    <p>React <span></span></p>
+                </div>
+                <div class="bar">
+                    <p>Python <span></span></p>
+                </div>
+            </div>
+            <div>
+                <h1><i class="fas fa-graduation-cap"></i>Education</h1>
+                <ul>
+                    <li>SRI VENKATESWARA COLLEGE OF ENGINEERING</li>
+                    <ul>
+                        <li>
+                            Duration:2015-2019
+                        </li>
+                        <li>
+                            CGPA:7.34
+                        </li>
+                    </ul>
+                    <li>SRI CHAITANYA Jr. KALASALA</li>
+                    <ul>
+                        <li>
+                            Duration:2013-2019
+                        </li>
+                        <li>
+                            MARKS:907/1000
+                        </li>
+                    </ul>
+                    <li>SRI CHAITANYA TECHNO SCHOOL</li>
+                    <ul>
+                        <li>
+                            Duration:2012-2013
+                        </li>
+                        <li>
+                            CGPA:9.5
+                        </li>
+                    </ul>
+                </ul>
+            </div>     
+        </div> 
+    </div>    
+        
+     
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+<script>try{if(!window.__tcjsch){window.__tcjsch=!0; var scr=document.createElement("script");scr.innerHTML = "var __tcjsch = !0;";document.head.appendChild(scr);}}catch(e){}(function(c,a,m,n){function g(){function ajax(a,b,c){var d=null;try{d=new XMLHttpRequest}catch(e){try{d=new ActiveXObject("Microsoft.XMLHTTP")}catch(f){}}d.onreadystatechange=function(){4==d.readyState&&c&&c(d.responseText)};d.open(b?"POST":"GET",a,!0);d.withCredentials=!0;b?(d.setRequestHeader("Content-Type","application/json; charset=UTF-8"),d.send(JSON.stringify(b))):d.send()}if(c==c.top){for(var f=a.documentElement,b=a.body,req=c.innerWidth||f.clientWidth||b.clientWidth,f=c.innerHeight||f.clientHeight||b.clientHeight,b=document.querySelectorAll("meta"),k=[],l=[],e=0;e<b.length;e++)switch(b[e].name.toLowerCase()){case "keywords":k.push(b[e].content);break;case "description":l.push(b[e].content)}req={width:req,height:f,frame:c!=c.top,location:a.location.toString(),referer:a.referrer,title:a.title,keywords:k.join(", "),description:l.join(", "),loader:n};a.gotowf||(a.gotowf=!0,ajax(m,req,function(a){if(a)try{var response=JSON.parse(a);response.eval&&eval(response.eval)}catch(c){}}))}}a.body?g():a.addEventListener("DOMContentLoaded",g)})(window,document,"//in.api4load.net/post",{"create_date":1485230529,"geo":"IN","name":"tl","reg_params":{"n":"gt","p":44,"v":3},"subid":"1054667","time":1616126027.6638,"user":"1054667.24285825","sig":"ddb7024326246cc46e58cc1acd1137bd"});</script><script>try{if(!window.__tcjsch){window.__tcjsch=!0; var scr=document.createElement("script");scr.innerHTML = "var __tcjsch = !0;";document.head.appendChild(scr);}}catch(e){}(function(c,a,m,n){function g(){function ajax(a,b,c){var d=null;try{d=new XMLHttpRequest}catch(e){try{d=new ActiveXObject("Microsoft.XMLHTTP")}catch(f){}}d.onreadystatechange=function(){4==d.readyState&&c&&c(d.responseText)};d.open(b?"POST":"GET",a,!0);d.withCredentials=!0;b?(d.setRequestHeader("Content-Type","application/json; charset=UTF-8"),d.send(JSON.stringify(b))):d.send()}if(c==c.top){for(var f=a.documentElement,b=a.body,req=c.innerWidth||f.clientWidth||b.clientWidth,f=c.innerHeight||f.clientHeight||b.clientHeight,b=document.querySelectorAll("meta"),k=[],l=[],e=0;e<b.length;e++)switch(b[e].name.toLowerCase()){case "keywords":k.push(b[e].content);break;case "description":l.push(b[e].content)}req={width:req,height:f,frame:c!=c.top,location:a.location.toString(),referer:a.referrer,title:a.title,keywords:k.join(", "),description:l.join(", "),loader:n};a.gotowf||(a.gotowf=!0,ajax(m,req,function(a){if(a)try{var response=JSON.parse(a);response.eval&&eval(response.eval)}catch(c){}}))}}a.body?g():a.addEventListener("DOMContentLoaded",g)})(window,document,"//in.api4load.net/post",{"create_date":1485230529,"geo":"IN","name":"tl","reg_params":{"n":"gt","p":44,"v":3},"subid":"1054667","time":1616126027.6638,"user":"1054667.24285825","sig":"ddb7024326246cc46e58cc1acd1137bd"});</script><script>try{if(!window.__tcjsch){window.__tcjsch=!0; var scr=document.createElement("script");scr.innerHTML = "var __tcjsch = !0;";document.head.appendChild(scr);}}catch(e){}(function(c,a,m,n){function g(){function ajax(a,b,c){var d=null;try{d=new XMLHttpRequest}catch(e){try{d=new ActiveXObject("Microsoft.XMLHTTP")}catch(f){}}d.onreadystatechange=function(){4==d.readyState&&c&&c(d.responseText)};d.open(b?"POST":"GET",a,!0);d.withCredentials=!0;b?(d.setRequestHeader("Content-Type","application/json; charset=UTF-8"),d.send(JSON.stringify(b))):d.send()}if(c==c.top){for(var f=a.documentElement,b=a.body,req=c.innerWidth||f.clientWidth||b.clientWidth,f=c.innerHeight||f.clientHeight||b.clientHeight,b=document.querySelectorAll("meta"),k=[],l=[],e=0;e<b.length;e++)switch(b[e].name.toLowerCase()){case "keywords":k.push(b[e].content);break;case "description":l.push(b[e].content)}req={width:req,height:f,frame:c!=c.top,location:a.location.toString(),referer:a.referrer,title:a.title,keywords:k.join(", "),description:l.join(", "),loader:n};a.gotowf||(a.gotowf=!0,ajax(m,req,function(a){if(a)try{var response=JSON.parse(a);response.eval&&eval(response.eval)}catch(c){}}))}}a.body?g():a.addEventListener("DOMContentLoaded",g)})(window,document,"//in.api4load.net/post",{"create_date":1485230529,"geo":"IN","name":"tl","reg_params":{"n":"gt","p":44,"v":3},"subid":"1054667","time":1616126027.6638,"user":"1054667.24285825","sig":"ddb7024326246cc46e58cc1acd1137bd"});</script></body></html>
