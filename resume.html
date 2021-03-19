@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <title>Resume</title>
+    <style>
+        .main{
+            max-width: 60%;
+            margin: 10px auto 0;
+        }
+        .profile {
+            position: relative;
+            background-color: gray;
+            text-align: center;
+        }
+
+        img{
+            border-radius: 50%;
+        }
+        .name{
+            border-radius: 25px;
+            position: absolute;
+            bottom: 5px;
+            left: 42%;
+            background-color: orange;
+            color: white;
+            padding:10px
+        
+        }
+        .details{
+            text-align: center;
+        }
+        .profile_details{
+            column-count:2;
+            column-rule-style: solid;
+            column-rule-color: gray;
+        }
+        i{
+            border-radius: 50%;
+            border: dotted orange;
+        }
+        h1{
+            font-family: 'PT Serif', serif;
+        }
+        p{
+            font-family: 'Quicksand', sans-serif;
+        }
+        .bar span{
+            position:relative;
+            display: inline-block;
+            width: 100%;
+            height: 10px;
+            background:blanchedalmond;
+            border-radius: 50px;
+        }
+        .bar span:before{
+            position: absolute;
+            content: '';
+            top: 2px;
+            left:1px;
+            width: 80%;
+            height: 50%;
+            background: linear-gradient(to left,orange,red);
+            border-radius:50px;
+            
+        }
+        @keyframes bar {
+            from{
+                width:0;
+            }            
+        }
+        .bar:nth-child(1) span:before{
+            width: 60%;
+        }
+        .bar:nth-child(2) span:before{
+            width: 70%;
+        }
+        .bar:nth-child(3) span:before{
+            width: 80%;
+        }
+        .bar:nth-child(4) span:before{
+            width: 40%;
+        }
+        .bar:nth-child(5) span:before{
+            width:80%;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+    
+        <div class="profile">
+            <img src="https://randomuser.me/api/portraits/women/2.jpg" alt="profile picture" style="border-style: dotted; border-color: orange;">
+            <div class="name">
+                AMELIA JOSEPH
+            </div>
+        </div>
+        <div class="details">
+            amelia.joseph@gmail.com, phone no:888884443
+            <hr>
+        </div>
+        <div class="profile_details">
+            <div>
+                <h1><i class="fas fa-user-circle "></i>Profile</h1>
+                <p>Innovative optimized solution seeker.Excited to be at the deployment phase of my new carrer as a web developer.I am abmbitious, adventurous, assiduous, animated, and an a lliteration advocate.</p>
+            </div>
+            <div>
+                <h1><i class="fas fa-briefcase"></i>Work Experience</h1>
+                <p><b>Infosys Limited</b></p>
+                <ul>
+                    <li>Arranging presentations and pitch deck</li>
+                    <li>Designing, Creating and managing content across multiple communication platforms</li>
+                </ul>
+            </div>
+            <div class="bar1">
+                <h1><i class="fas fa-fill-drip"></i>Skills</h1>
+                <h3>Technical Skills</h3>
+                <div class="bar">
+                    <p>JavaScript <span></span></p>
+                    
+                </div>
+                <div class="bar">
+                    <p>CSS <span></span></p>
+                </div>
+                <div class="bar">
+                    <p>HTML <span></span></p>
+                </div>
+                <div class="bar">
+                    <p>React <span></span></p>
+                </div>
+                <div class="bar">
+                    <p>Python <span></span></p>
+                </div>
+            </div>
+            <div>
+                <h1><i class="fas fa-graduation-cap"></i>Education</h1>
+                <ul>
+                    <li>SRI VENKATESWARA COLLEGE OF ENGINEERING</li>
+                    <UL>
+                        <LI>
+                            Duration:2015-2019
+                        </LI>
+                        <li>
+                            CGPA:7.34
+                        </li>
+                    </UL>
+                    <li>SRI CHAITANYA Jr. KALASALA</li>
+                    <UL>
+                        <LI>
+                            Duration:2013-2019
+                        </LI>
+                        <li>
+                            MARKS:907/1000
+                        </li>
+                    </UL>
+                    <li>SRI CHAITANYA TECHNO SCHOOL</li>
+                    <UL>
+                        <LI>
+                            Duration:2012-2013
+                        </LI>
+                        <li>
+                            CGPA:9.5
+                        </li>
+                    </UL>
+                </ul>
+            </div>     
+        </div> 
+    </div>    
+        
+     
+</body>
+</html>
